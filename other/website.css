@@ -15,15 +15,15 @@ p{
 }
  
 a{
-    color:#edc451;
+    color:#30A5FB;
 }
  
 a:hover{
-    color:#fec503;
+    color:#1021A4;
 }
  
 .text-primary{
-    color:#edc451!important;
+    color:#30A5FB!important;
 }
  
 h1,h2,h3,h4,h5{
@@ -37,8 +37,6 @@ h6{
     font-weight:300;
     font-family: 'Montserrat', sans-serif;
 }
-
-
  
 .page-section{
     padding:100px 0;
@@ -72,13 +70,13 @@ h6{
 }
     
 .btn-primary{
-    background-color:#edc451;
-    border-color:#edc451;
+    background-color:#30A5FB;
+    border-color:#30A5FB;
 }
     
 .btn-primary:hover{
-    background-color:#fec810!important;
-    border-color:#fec810!important;
+    background-color:#1021A4!important;
+    border-color:#1021A4!important;
 }
     
 #mainNav{
@@ -92,17 +90,17 @@ h6{
     text-transform:uppercase;
     color:#fff;
     border:0;
-    background-color:#edc451;
+    background-color:#30A5FB;
     font-family: 'Montserrat', sans-serif;
 }
     
 #mainNav .navbar-brand{
-    color:#edc451;
+    color:#30A5FB;
     font-family: 'Lobster', cursive;
 }
     
 #mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
-    color:#edc451;
+    color:#30A5FB;
 }
     
 #mainNav .navbar-nav .nav-item .nav-link{
@@ -115,11 +113,11 @@ h6{
 }
     
 #mainNav .navbar-nav .nav-item .nav-link.active{ /*colour - menu item when active*/
-    color:#edc451
+    color:#30A5FB
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover{ /*colour - hover menu items*/
-    color:#365164;
+    color:#30A5FB;
 }
 
 
@@ -157,7 +155,7 @@ h6{
     header.masthead{
         text-align:center;
         color:#fff;
-        background-image:url(https://scontent.fmla1-2.fna.fbcdn.net/v/t1.15752-9/s2048x2048/81402366_1018715935153315_2403462955812257792_n.jpg?_nc_cat=100&_nc_ohc=iNNbw0vAuCMAQmG5cDP-YezclHSV8_BkhcWHTJSQAVvpA65rQBoiuh-8g&_nc_ht=scontent.fmla1-2.fna&oh=f90ff9b94b974910ebb6d21f0b77ef50&oe=5EAE4493);
+        background-image:url(https://scontent.fmla1-2.fna.fbcdn.net/v/t1.15752-9/s2048x2048/83875478_176393470341171_8122474985773072384_n.png?_nc_cat=108&_nc_ohc=JEDonNvsaFAAX_UH261&_nc_ht=scontent.fmla1-2.fna&oh=fa67bba8f1c50101913e6234245896cf&oe=5EB960D1);
         background-repeat:no-repeat;
         background-attachment:scroll;
         background-position:center;
@@ -221,7 +219,7 @@ h6{
     }
 
     .aboutpic{
-            width: 100%;
+        width: 100%;
     }
 
     .filter-button{
