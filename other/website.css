@@ -3,15 +3,23 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+
+ @font-face {
+    font-family: "Phenomena";
+    src: url("other/webfontkit-Phenomena/phenomena-regular-webfont.woff") format("woff"),
+    url("other/webfontkit-Phenomena/Phenomena/Phenomena-Regular.ttf") format("truetype")
+    url("/other/webfontkit-Phenomena/Phenomena/Phenomena-Regular.eot") format("embedded-opentype")
+    }
  
 body{
-    overflow-x:hidden;
+    overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
  
 p{
     line-height:1.5;
     font-size: 10px;
+    font-family: 'Phenomena', 'Montserrat', sans-serif;
 }
  
 a{
@@ -21,7 +29,50 @@ a{
 a:hover{
     color:#1021A4;
 }
- 
+
+
+.hovereffect {
+    width:100%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+}
+    
+.hovereffect .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:rgba(0,0,0,0.5);
+    -webkit-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out
+}
+    
+.hovereffect img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+}
+
+.hovereffect:hover img {
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+        
+.hovereffect:hover .overlay {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+
 .text-primary{
     color:#30A5FB!important;
 }
@@ -37,7 +88,7 @@ h6{
     font-weight:300;
     font-family: 'Montserrat', sans-serif;
 }
- 
+
 .page-section{
     padding:100px 0;
 }
@@ -70,8 +121,9 @@ h6{
 }
     
 .btn-primary{
-    background-color:#30A5FB;
-    border-color:#30A5FB;
+    background-color: transparent;
+    border-color: white;
+    border-width: 2px;
 }
     
 .btn-primary:hover{
@@ -96,7 +148,6 @@ h6{
     
 #mainNav .navbar-brand{
     color:#30A5FB;
-    font-family: 'Lobster', cursive;
 }
     
 #mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
@@ -120,6 +171,9 @@ h6{
     color:#30A5FB;
 }
 
+#getintouch {
+    background-image: linear-gradient(to right, #07FCEC , #2D59FD);
+  }
 
     @media (min-width:992px){
         
@@ -168,7 +222,7 @@ h6{
     }
     
     header.masthead .intro-text .intro-lead-in{
-        font-size:22px;
+        font-size:30px;
         font-style:italic;
         line-height:22px;
         margin-bottom:25px;
@@ -192,7 +246,7 @@ h6{
     }
     
     header.masthead .intro-text .intro-lead-in{
-        font-size:40px;
+        font-size:10px;
         font-style:italic;
         line-height:40px;
         margin-bottom:25px;
@@ -300,4 +354,34 @@ h6{
 
     .socialmedia-icons{
         padding-top: 35px;
+    }
+
+    .goodwells{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .ilgallarija{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .trapezzini{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .premjunazzjonali{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .muza{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .teatru{
+        width: 100%;
+        padding: 5px;
     }
