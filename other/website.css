@@ -207,12 +207,12 @@ h6{
     }
 
     header.masthead{
-        text-align:center;
+        text-align:left;
         color:#fff;
-        background-image:url(https://scontent.fmla1-2.fna.fbcdn.net/v/t1.15752-9/s2048x2048/83875478_176393470341171_8122474985773072384_n.png?_nc_cat=108&_nc_ohc=JEDonNvsaFAAX_UH261&_nc_ht=scontent.fmla1-2.fna&oh=fa67bba8f1c50101913e6234245896cf&oe=5EB960D1);
+        background-image: url(https://scontent.fmla1-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/88339888_343828616546608_5926507530732699648_n.jpg?_nc_cat=105&_nc_sid=b96e70&_nc_ohc=Qm3lKKkc0n0AX8ncqcI&_nc_ht=scontent.fmla1-1.fna&_nc_tp=7&oh=1be747d6db942eb8e66c4ccfb21cbebf&oe=5E90A8A2);
         background-repeat:no-repeat;
         background-attachment:scroll;
-        background-position:center;
+        background-position: right;
         background-size:cover;
     }
     
