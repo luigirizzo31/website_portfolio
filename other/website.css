@@ -80,7 +80,14 @@ a:hover{
     color:#30A5FB!important;
 }
  
-h1,h2,h3,h4,h5{
+h1{
+    color: #152733;
+    font-size: 28px;
+    font-weight:700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,h3,h4,h5{
     color: #152733;
     font-weight:700;
     font-family: 'Montserrat', sans-serif;
@@ -114,24 +121,25 @@ h6{
     
 .btn{
     font-family: 'Montserrat', sans-serif;
-    font-weight:700;
+    font-weight:500;
     margin:10px;
 }
     
 .btn-xl{
     font-size:18px;
-    padding:20px 50px;
+    padding:15px 40px;
 }
     
 .btn-primary{
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.8);
     border-color: white;
-    border-width: 2px;
+    color: black;
 }
     
 .btn-primary:hover{
-    background-color:#1021A4!important;
-    border-color:#1021A4!important;
+    background-color: rgba(16, 33, 164, 0.65);
+    color: white;
+
 }
     
 #mainNav{
@@ -167,18 +175,19 @@ h6{
 }
     
 #mainNav .navbar-nav .nav-item .nav-link.active{ /*colour - menu item when active*/
-    color:#30A5FB
+    color:#30A5FB;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover{ /*colour - hover menu items*/
-    color:#30A5FB;
+    color:rgba(0, 255, 140, 0.75);
 }
 
 #getintouch {
     background-image: linear-gradient(to right, #07FCEC , #2D59FD);
   }
 
-    @media (min-width:992px){
+
+    @media (min-width:992px){ 
         
     #mainNav{
         padding-top:25px;
@@ -210,13 +219,13 @@ h6{
     }
 
     header.masthead{
-        text-align:left;
+        text-align:center;
         color:#fff;
-        background-image: url(https://scontent.fmla1-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/88339888_343828616546608_5926507530732699648_n.jpg?_nc_cat=105&_nc_sid=b96e70&_nc_ohc=Qm3lKKkc0n0AX8ncqcI&_nc_ht=scontent.fmla1-1.fna&_nc_tp=7&oh=1be747d6db942eb8e66c4ccfb21cbebf&oe=5E90A8A2);
+        background-image: url(https://scontent.fmla1-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/89839025_204101130841194_6773824876525387776_n.png?_nc_cat=102&_nc_sid=b96e70&_nc_ohc=msm2km0FBfIAX8bylGG&_nc_ht=scontent.fmla1-1.fna&oh=550a95f70ef1ab41733829c0f6982f4f&oe=5E8EE69B);
         background-repeat:no-repeat;
         background-attachment:scroll;
         background-position: right;
-        background-size:cover;
+        background-size: cover;
     }
     
     header.masthead .intro-text{
@@ -226,33 +235,39 @@ h6{
     
     header.masthead .intro-text .intro-lead-in{
         font-size:10px;
-        font-style:italic;
-        line-height:22px;
-        margin-bottom:25px;
+        line-height:15px;
+        margin-bottom:20px;
         font-family: 'Montserrat', sans-serif;
     }
     
     header.masthead .intro-text .intro-heading{
-        font-size:40px;
+        font-size:28px;
         font-weight:700;
-        line-height:50px;
+        line-height:20px;
         margin-bottom:20px;
         font-family: 'Montserrat', sans-serif;
     }
 
+    .personaldescription{
+        text-align: center;
+        font-size: x-small;
+        line-height: 16px;
+    }
 
-    @media (min-width:768px){
-        
+
+    @media (min-width:768px){ /*large screen*/
+
     header.masthead .intro-text{
         padding-top:300px;
         padding-bottom:200px;
     }
     
     header.masthead .intro-text .intro-lead-in{
-        font-size:10px;
-        font-style:italic;
-        line-height:40px;
+        font-size:16px;
+        line-height:25px;
         margin-bottom:25px;
+        margin-left: 200px;
+        margin-right: 200px;
         font-family: 'Montserrat', sans-serif;
     }
     
@@ -263,6 +278,13 @@ h6{
         margin-bottom:20px;
         font-family: 'Montserrat', sans-serif;
     }
+
+    .personaldescription{
+        text-align: center;
+        font-size: medium;
+        line-height: 28px;
+    }
+
     }
 
     .service-heading{
@@ -270,10 +292,7 @@ h6{
         text-transform:none;
     }
         
-    .personaldescription{
-        text-align: center;
-        font-size: small;
-    }
+    
 
     .aboutpic{
         width: 100%;
@@ -359,32 +378,9 @@ h6{
         padding-top: 35px;
     }
 
-    .goodwells{
+    .portfoliothumbnail{
         width: 100%;
         padding: 5px;
     }
 
-    .ilgallarija{
-        width: 100%;
-        padding: 5px;
-    }
-
-    .trapezzini{
-        width: 100%;
-        padding: 5px;
-    }
-
-    .premjunazzjonali{
-        width: 100%;
-        padding: 5px;
-    }
-
-    .muza{
-        width: 100%;
-        padding: 5px;
-    }
-
-    .teatru{
-        width: 100%;
-        padding: 5px;
-    }
+  
