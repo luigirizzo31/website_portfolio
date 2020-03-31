@@ -250,80 +250,111 @@
                     <h3 class="section-subheading text-muted">Get in touch. We'd love to hear from you.</h3>
                 </div>
             </div>
-            <div class="contactinfo">
-                <div class="row">
-                    <div class="col d-flex justify-content-center"><i class="fas fa-2x fa-phone-alt text-white"></i>
-                    </div>
-                    <div class="col d-flex justify-content-center"><i class="fas fa-2x fa-envelope text-white"></i>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col d-flex justify-content-center" id="tel-footer">
-                        <h6>+356 99318940</h6>
-                    </div>
-                    <div class="col d-flex justify-content-center" id="email-footer">
-                        <h6><a class="text-white" href="mailto:luigirizzo.design@gmail.com"
-                                target="_top">luigirizzo.design@gmail.com</a>
-                        </h6>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <hr>
-            <br>
-            <div class="inquiries">
-                <p class="text-white text-center">ANY INQUIRIES: Please fill out the form on the right or email us
-                    directly at luigirizzo.design@gmail.com</p>
-            </div>
-
-            <div class="contactform">
-                <form action="contactform.php" method="post">
-                    <div class="row">
-                        <input type="text" class="col-xs-12 col-md-4" id="name" placeholder="Name" required>
-                        <span class="col-xs-12 col-md-1"></span>
-                        <input type="email" class="col-xs-12 col-md-7" id="email" placeholder="Email" required>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <textarea rows="6" class="col" id="usermessage" placeholder="Message" required></textarea>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane">
-                                Send Message</i></button>
-                    </div>
-                </form>
-            </div>
-
-            <div class="container socialmedia-icons row">
-                <div class="col-4">
-                    <span></span>
-                </div>
-                <div class="col-1 d-flex justify-content-center">
-                    <a href="https://www.facebook.com/luigirizzodesigner" target="_blank" class="facebook"><i
-                            class="fab fa-2x fa-facebook-square"></i></a>
-                </div>
-                <div class="col-1 d-flex justify-content-center">
-                    <a href="https://www.instagram.com/luigirizzodesigner/" target="_blank" class="instagram"><i
-                            class="fab fa-2x fa-instagram"></i></a>
-                </div>
-                <div class="col-1 d-flex justify-content-center">
-                    <a href="https://www.linkedin.com/in/luigi-rizzo-a407b9183/" target="_blank" class="linkedin"><i
-                            class="fab fa-2x fa-linkedin"></i>
-                    </a>
-                </div>
-                <div class="col-1 d-flex justify-content-center">
-                    <a href="https://www.behance.net/luigirizz0" target="_blank" class="behance"><i
-                            class="fab fa-2x fa-behance-square"></i>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <span></span>
-                </div>
-            </div>
         </div>
+
+        <div class="contactform">
+            <form action="contactform.php" method="post">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required="required"
+                                data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required="required"
+                                data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone Number"
+                                required="required" data-validation-required-message="Please enter your phone number.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea rows="7" class="col" id="usermessage" placeholder="Message" required="required"
+                                data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 text-center">
+                        <div class="row">
+                            <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-paper-plane">
+                                    Send Message</i></button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <footer class="footer">
+            <!--<div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li class="list-inline-item">
+                                <a class="text-white" href="tel:+00356 99318940">+356 99318940</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li class="list-inline-item">
+                                <a class="text-white" href="mailto:luigirizzo.design@gmail.com"
+                                    target="_top">luigirizzo.design@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div> -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12 text-center">
+                        <p class="copyright-text text-white">Copyright &copy; All Rights Reserved by Luigi Rizzo.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <ul class="list-inline social-icons">
+                            <li class="list-inline-item"><a id="sicons"
+                                    href="https://www.facebook.com/luigirizzodesigner/" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a></li>
+                            <li class="list-inline-item"> <a id="sicons"
+                                    href="https://www.instagram.com/luigirizzodesigner/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a></li>
+                            <li class="list-inline-item"><a id="sicons" href="https://www.behance.net/luigirizz0"
+                                    target="_blank">
+                                    <i class="fab fa-behance"></i>
+                                </a></li>
+                            <li class="list-inline-item"><a id="sicons"
+                                    href="https://www.linkedin.com/in/luigirizzodesign/" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a></li>
+                            <li class="list-inline-item"><a id="sicons" href="https://medium.com/@luigirizzo"
+                                    target="_blank">
+                                    <i class="fab fa-medium-m"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
     </section>
+
 
 
     <!-- Bootstrap core JavaScript -->
