@@ -17,7 +17,6 @@
         $mail->addReplyTo($_POST['email'],$_POST['name']);
         $mail->isHTML(true);
         $mail->Subject='Form Submission:' .$_POST['subject'];
-        $mail->Body='<h3>Name :'.$_POST['name'].'<br> Email: '.$_POST['email'].'<br>Message: '.$_POST['msg'].'</h3>';
-        
+        $mail->Body='<h3>Name :'.$_POST['name'].'<br> Email: '.$_POST['email'].'<br>Message: '.$_POST['msg'].'</h3>';  
     }
 ?>
