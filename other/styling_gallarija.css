@@ -287,25 +287,6 @@ h6{
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
     }
 
-    .facebook :hover{
-        color: white;
-    }
-    
-    .instagram :hover{
-        color: white;
-    }
-    
-    .linkedin :hover{
-        color: white;
-    }
-    
-    .behance :hover{
-        color: white;
-    }
-
-    .socialmedia-icons{
-        padding-top: 35px;
-    }
 
     .gallarijalogo{
         width: 100%;
@@ -321,4 +302,52 @@ h6{
 
     .gallarijaspa{
         width: 100%;
+    }
+
+
+    #contact{
+        background-color: #212529;
+    }
+
+    #contactform{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+
+    #name{
+        height: 3rem;
+        border-radius: 10px;
+    }
+
+    #email{
+        height: 3rem;
+        border-radius: 10px;
+    }
+
+    #subject{
+        height: 3rem;
+        border-radius: 10px;
+    }
+
+
+    #usermessage{
+        border-radius: 15px;
+    }
+
+    #sicons{
+        padding: 5px;
+        color: black;
+    }
+
+    #copyright{
+        color: black;
+        font-size: 14px;
+    }
+
+    .footer{
+        padding-top: 35px;
+        padding-bottom: 15px;
+        padding-left: 0;
+        padding-right: 0;
     }
