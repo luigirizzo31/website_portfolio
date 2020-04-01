@@ -254,7 +254,23 @@
 
         <div class="contactform">
             <form action="https://formspree.io/meqljnko" method="POST">
-                <div class="row">
+
+                <label>
+                    Your Name:
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    Your Email:
+                    <input type="email" name="_replyto">
+                </label>
+                <label>
+                    Message:
+                    <textarea name="message"></textarea>
+                </label>
+                <input type="submit" value="Send">
+            </form>
+
+            <!--<div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <input type="text" class="form-control" name="name" id="name" placeholder="Name"
@@ -290,7 +306,7 @@
                                     class="fas fa-paper-plane">
                                     Send Message</i></button>
                         </div>
-                    </div>
+                    </div> -->
             </form>
         </div>
 
