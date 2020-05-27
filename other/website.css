@@ -175,7 +175,7 @@ h6{
 }
 
 #getintouch {
-    background-image: linear-gradient(to right, #07FCEC , #2D59FD);
+    background-image: linear-gradient(to right, #30A5FB , #2D59FD);
   }
 
 
@@ -268,8 +268,6 @@ h6{
         font-size:16px;
         line-height:25px;
         margin-bottom:25px;
-        margin-left: 200px;
-        margin-right: 200px;
         font-family: 'Montserrat', sans-serif;
     }
     
