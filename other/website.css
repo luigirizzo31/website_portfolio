@@ -4,12 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
- @font-face {
+ /*@font-face {
     font-family: "Phenomena";
     src: url("other/webfontkit-Phenomena/phenomena-regular-webfont.woff") format("woff"),
     url("other/webfontkit-Phenomena/Phenomena/Phenomena-Regular.ttf") format("truetype")
     url("/other/webfontkit-Phenomena/Phenomena/Phenomena-Regular.eot") format("embedded-opentype")
-    }
+    }*/
  
 body{
     overflow-x: hidden;
@@ -19,7 +19,7 @@ body{
 p{
     line-height:1.5;
     font-size: 10px;
-    font-family: 'Phenomena', 'Montserrat', sans-serif;
+    font-family: /*'Phenomena'*/ 'Montserrat', sans-serif;
 }
  
 a{
